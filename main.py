@@ -9,6 +9,7 @@ import glob
 source_path = "/Users/jonathanburnett/Documents/Test1/123.fmf"
 
 # Check the file exist or not
+if path.exists(source_path):
 
     # Set the directory path where the file will be moved
     destination_path = "/Users/jonathanburnett/Library/Application Support/Sports Interactive/Football Manager 2022/tactics"
